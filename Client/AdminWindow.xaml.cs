@@ -19,6 +19,15 @@ namespace Client
     /// </summary>
     public partial class AdminWindow : Window
     {
+        private static AdminWindow instance;
+
+        public static AdminWindow getInstance(string login)
+        {
+            if (instance == null)
+                instance = new AdminWindow(login);
+            return instance;
+        }
+        
         public string workLogin = "";
 
         public AdminWindow(string login)

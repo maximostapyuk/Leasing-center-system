@@ -38,7 +38,7 @@ namespace Client
                 {
                     LogLabel.Content = "";
                     workLogin = LoginBox.Text;
-                    AdminWindow adminWindow = new AdminWindow(workLogin);
+                    AdminWindow adminWindow = AdminWindow.getInstance(workLogin);
                     adminWindow.Show();
                 }
                 else if (answer == "USER")

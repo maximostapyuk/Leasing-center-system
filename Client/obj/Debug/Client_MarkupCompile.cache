@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\BSUIR\curswork\Client\obj\Debug\
+D:\BSUIR\5_term\Curswork\curswork\Client\obj\Debug\
 Client
 none
 false
 DEBUG;TRACE
-D:\BSUIR\curswork\Client\App.xaml
+D:\BSUIR\5_term\Curswork\curswork\Client\App.xaml
 11-768095723
 
 18-1842267217
-211413182113
+211576784757
 AdminWindow.xaml;BasicColumn.xaml;CrudWindow.xaml;EmployeeWindow.xaml;LeasingWindow.xaml;MainWindow.xaml;MethodWindow.xaml;OrderWindow.xaml;RegistrationWindow.xaml;StepLine.xaml;UserManagementWindow.xaml;
 
 False
